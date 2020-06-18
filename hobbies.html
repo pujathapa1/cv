@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Hobbies</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h3>My Hobbies</h3>
+  <ul>
+    <li>Drawing</li>
+    <div class="row">
+      <div class="column">
+        <img src="images/dog3.png" alt="Dog 3" style="width:75%">
+      </div>
+      <div class="column">
+        <img src="images/bear.png" alt="Bear" style="width:75%">
+      </div>
+      <div class="column">
+        <img src="images/Dog2.png" alt="Dog 2" style="width:75%">
+      </div>
+      <div class="column">
+        <img src="images/moon.png" alt="Moon" style="width:75%">
+      </div>
+      <div class="column">
+        <img src="images/cat.png" alt="Cat" style="width:75%">
+      </div>
+      <div class="column">
+        <img src="images/max & jackie.png" alt="Max & Jackie" style="width:75%">
+      </div>
+    </div>
+    <li>Watching Movies
+      <p style="padding-left:2em">Top 5 movies of all time:
+      </p>
+  <ul>
+    <li>Hera Pheri</li>
+    <li>Bhool Bhulaiya</li>
+    <li>Get Out</li>
+    <li>Pee Mak</li>
+    <li>Jatra</li>
+  </ul>
+  </li>
+  </ul>
+
+</body>
+
+</html>
